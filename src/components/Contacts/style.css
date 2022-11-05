@@ -12,23 +12,6 @@ input {
   -moz-box-sizing: border-box;
 }
 
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.list {
-  margin: 15px;
-}
-
-.list > li {
-  background-color: antiquewhite;
-  padding: 5px;
-  margin-bottom: 2px;
-}
-
 .btn {
   display: flex;
   justify-content: flex-end;

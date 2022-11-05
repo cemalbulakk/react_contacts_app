@@ -22,8 +22,10 @@ function List({ contacts }) {
       />
       <table>
         <thead>
-          <th>İsim</th>
-          <th>Telefon</th>
+          <tr>
+            <th>İsim</th>
+            <th>Telefon</th>
+          </tr>
         </thead>
         <tbody>
           {filtered.map((item, i) => (
